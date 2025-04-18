@@ -239,18 +239,9 @@ open class SwiftRadioPlayer: NSObject {
         super.init()
 
         #if !os(macOS)
-        let options: AVAudioSession.CategoryOptions
-
-        // Enable bluetooth playback
-        #if os(iOS)
-        options = [.defaultToSpeaker, .allowBluetooth, .allowAirPlay]
-        #else
-        options = []
-        #endif
-
         // Start audio session
         let audioSession = AVAudioSession.sharedInstance()
-        try? audioSession.setCategory(AVAudioSession.Category.playback, mode: AVAudioSession.Mode.default, options: options)
+        try? audioSession.setCategory(AVAudioSession.Category.playback, mode: AVAudioSession.Mode.default)
         #endif
 
         // Notifications
