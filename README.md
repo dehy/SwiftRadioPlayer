@@ -116,7 +116,7 @@ player.radioURL = URL(string: "http://example.com/station.mp3")
 
 - `state: SwiftRadioPlayerState` Player current state of type `SwiftRadioPlayerState`.
 
-- `playbackState: FRadioPlaybackState` Playing state of type `FRadioPlaybackState`.
+- `playbackState: SwiftRadioPlaybackState` Playing state of type `SwiftRadioPlaybackState`.
 
 ### Playback controls
 
@@ -149,7 +149,7 @@ func radioPlayer(_ player: SwiftRadioPlayer, playerStateDidChange state: SwiftRa
 
 Called when the playback changes state
 ```swift
-func radioPlayer(_ player: SwiftRadioPlayer, playbackStateDidChange state: FRadioPlaybackState)
+func radioPlayer(_ player: SwiftRadioPlayer, playbackStateDidChange state: SwiftRadioPlaybackState)
 ```
 
 Called when player changes the current player item

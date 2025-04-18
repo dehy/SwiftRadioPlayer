@@ -23,7 +23,7 @@ struct SwiftRadioPlayer_SwiftUIApp: App {
 struct Radio {
     var track = Track()
     var playerState = SwiftRadioPlayerState.urlNotSet
-    var playbackState = FRadioPlaybackState.stopped
+    var playbackState = SwiftRadioPlaybackState.stopped
     var url: URL? = nil
     var rawMetadata: String? = nil
 }
@@ -79,7 +79,7 @@ class RadioPlayer: SwiftRadioPlayerDelegate, ObservableObject {
         radio.playerState = state
     }
     
-    func radioPlayer(_ player: SwiftRadioPlayer, playbackStateDidChange state: FRadioPlaybackState) {
+    func radioPlayer(_ player: SwiftRadioPlayer, playbackStateDidChange state: SwiftRadioPlaybackState) {
         radio.playbackState = state
     }
     

@@ -124,7 +124,7 @@ extension ViewController: SwiftRadioPlayerDelegate {
         statusLabel.text = state.description
     }
     
-    func radioPlayer(_ player: SwiftRadioPlayer, playbackStateDidChange state: FRadioPlaybackState) {
+    func radioPlayer(_ player: SwiftRadioPlayer, playbackStateDidChange state: SwiftRadioPlaybackState) {
         playButton.isSelected = player.isPlaying
     }
     

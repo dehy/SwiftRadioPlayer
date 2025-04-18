@@ -8,13 +8,13 @@
 
 import AVFoundation
 
-// MARK: - FRadioPlayingState
+// MARK: - SwiftRadioPlayingState
 
 /**
- `FRadioPlayingState` is the Player playing state enum
+ `SwiftRadioPlayingState` is the Player playing state enum
  */
 
-@objc public enum FRadioPlaybackState: Int {
+@objc public enum SwiftRadioPlaybackState: Int {
     
     /// Player is playing
     case playing
@@ -89,9 +89,9 @@ import AVFoundation
      Called when the player changes the playing state
      
      - parameter player: SwiftRadioPlayer
-     - parameter state: FRadioPlaybackState
+     - parameter state: SwiftRadioPlaybackState
      */
-    func radioPlayer(_ player: SwiftRadioPlayer, playbackStateDidChange state: FRadioPlaybackState)
+    func radioPlayer(_ player: SwiftRadioPlayer, playbackStateDidChange state: SwiftRadioPlaybackState)
     
     /**
      Called when player changes the current player item
@@ -201,8 +201,8 @@ open class SwiftRadioPlayer: NSObject {
         }
     }
     
-    /// Playing state of type `FRadioPlaybackState`
-    open private(set) var playbackState = FRadioPlaybackState.stopped {
+    /// Playing state of type `SwiftRadioPlaybackState`
+    open private(set) var playbackState = SwiftRadioPlaybackState.stopped {
         didSet {
             guard oldValue != playbackState else { return }
             delegate?.radioPlayer(self, playbackStateDidChange: playbackState)
