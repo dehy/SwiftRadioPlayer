@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SwiftRadioPlayer_ios' do
-  platform :ios, '10.0'
+  platform :ios, '15.0'
   pod 'SwiftRadioPlayer', :path => '../'
 
   target 'SwiftRadioPlayer_Tests' do
@@ -11,16 +11,16 @@ target 'SwiftRadioPlayer_ios' do
 end
 
 target 'SwiftRadioPlayer_SwiftUI' do
-  platform :ios, '14.0'
+  platform :ios, '15.0'
   pod 'SwiftRadioPlayer', :path => '../'
 end
 
 target 'SwiftRadioPlayer_mac' do
-  platform :osx, '10.12'
+  platform :osx, '11.0'
   pod 'SwiftRadioPlayer', :path => '../'
 end
 
 target 'SwiftRadioPlayer_tvOS' do
-  platform :tvos, '10.0'
+  platform :tvos, '15.0'
   pod 'SwiftRadioPlayer', :path => '../'
 end

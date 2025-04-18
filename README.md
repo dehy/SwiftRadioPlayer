@@ -38,9 +38,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 - [ ] Support for Audio Recording
 
 ## Requirements
-- macOS 10.12+
-- iOS 10.0+
-- tvOS 10.0+
+- macOS 11.0+
+- iOS 15.0+
+- tvOS 15.0+
 - Xcode 10.2+
 - Swift 5
 
