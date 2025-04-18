@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftRadioPlayer'
-  s.version          = '0.1.22'
+  s.version          = '0.2.0'
   s.summary          = 'A radio player for iOS/macOS/tvOS'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,6 @@ Forked from FRadioPlayer.
                        DESC
 
   s.homepage         = 'https://github.com/dehy/SwiftRadioPlayer'
-  s.screenshots     = 'https://fethica.com/assets/img/web/swiftradioplayer-example.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fethi El Hassasna' => 'e.fethi.c@gmail.com', 'Arnaud de Mouhy' => 'arnaud@flyingpingu.com' }
   s.source           = { :git => 'https://github.com/dehy/SwiftRadioPlayer.git', :tag => s.version.to_s }
