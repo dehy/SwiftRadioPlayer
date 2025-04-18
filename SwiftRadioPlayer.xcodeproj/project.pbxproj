@@ -10,9 +10,9 @@
 		17840497CCA9E1F5451A683E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A33975E82C296004FBFCD4B /* Reachability.swift */; };
 		3B6A70BE5A795000DDBE175C /* SwiftRadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DEE4AB91E6E158B1659E0 /* SwiftRadioPlayer.swift */; };
 		7D76D344D6E5A2738AB1FC1E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A33975E82C296004FBFCD4B /* Reachability.swift */; };
-		88CC1FBA26F0AEBDAE5C059A /* FRadioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0420730ED6A68A5F53F6C /* FRadioAPI.swift */; };
-		9F87BCF4429071F9536F6414 /* FRadioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0420730ED6A68A5F53F6C /* FRadioAPI.swift */; };
-		A83BCC0BA5D56269E9FBF2CB /* FRadioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0420730ED6A68A5F53F6C /* FRadioAPI.swift */; };
+		88CC1FBA26F0AEBDAE5C059A /* SwiftRadioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0420730ED6A68A5F53F6C /* SwiftRadioAPI.swift */; };
+		9F87BCF4429071F9536F6414 /* SwiftRadioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0420730ED6A68A5F53F6C /* SwiftRadioAPI.swift */; };
+		A83BCC0BA5D56269E9FBF2CB /* SwiftRadioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0420730ED6A68A5F53F6C /* SwiftRadioAPI.swift */; };
 		CF0B550787ED266277DDCF92 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A33975E82C296004FBFCD4B /* Reachability.swift */; };
 		E01E712565214B3AF63D8780 /* SwiftRadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DEE4AB91E6E158B1659E0 /* SwiftRadioPlayer.swift */; };
 		E3357EBA28AEADEBE4DFC380 /* SwiftRadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DEE4AB91E6E158B1659E0 /* SwiftRadioPlayer.swift */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1B7DEE4AB91E6E158B1659E0 /* SwiftRadioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRadioPlayer.swift; sourceTree = "<group>"; };
-		4FA0420730ED6A68A5F53F6C /* FRadioAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRadioAPI.swift; sourceTree = "<group>"; };
+		4FA0420730ED6A68A5F53F6C /* SwiftRadioAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRadioAPI.swift; sourceTree = "<group>"; };
 		7A33975E82C296004FBFCD4B /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A6061AB427C815EEAEEE40AB /* SwiftRadioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftRadioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B522A5BC710885159DEA95F7 /* SwiftRadioPlayer_mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftRadioPlayer_mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,7 +31,7 @@
 		5A025BE5F61B9487FAB69938 /* SwiftRadioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				4FA0420730ED6A68A5F53F6C /* FRadioAPI.swift */,
+				4FA0420730ED6A68A5F53F6C /* SwiftRadioAPI.swift */,
 				7A33975E82C296004FBFCD4B /* Reachability.swift */,
 				1B7DEE4AB91E6E158B1659E0 /* SwiftRadioPlayer.swift */,
 			);
@@ -148,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88CC1FBA26F0AEBDAE5C059A /* FRadioAPI.swift in Sources */,
+				88CC1FBA26F0AEBDAE5C059A /* SwiftRadioAPI.swift in Sources */,
 				CF0B550787ED266277DDCF92 /* Reachability.swift in Sources */,
 				E3357EBA28AEADEBE4DFC380 /* SwiftRadioPlayer.swift in Sources */,
 			);
@@ -158,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A83BCC0BA5D56269E9FBF2CB /* FRadioAPI.swift in Sources */,
+				A83BCC0BA5D56269E9FBF2CB /* SwiftRadioAPI.swift in Sources */,
 				17840497CCA9E1F5451A683E /* Reachability.swift in Sources */,
 				E01E712565214B3AF63D8780 /* SwiftRadioPlayer.swift in Sources */,
 			);
@@ -168,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F87BCF4429071F9536F6414 /* FRadioAPI.swift in Sources */,
+				9F87BCF4429071F9536F6414 /* SwiftRadioAPI.swift in Sources */,
 				7D76D344D6E5A2738AB1FC1E /* Reachability.swift in Sources */,
 				3B6A70BE5A795000DDBE175C /* SwiftRadioPlayer.swift in Sources */,
 			);

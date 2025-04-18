@@ -1,5 +1,5 @@
 //
-//  FRadioAPI.swift
+//  SwiftRadioAPI.swift
 //  SwiftRadioPlayer
 //
 //  Created by Fethi El Hassasna on 2017-11-25.
@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - iTunes API
-internal struct FRadioAPI {
+internal struct SwiftRadioAPI {
     
     // MARK: - Util methods
     
